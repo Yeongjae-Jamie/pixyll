@@ -1,7 +1,37 @@
 ---
 layout: default
+title: Home
 ---
-{% assign posts_count = paginator.posts | size %}
+<div style="text-align: center;">
+  <img src="{{ '/images/me1.jpg' | relative_url}}" alt="Image" style="border: none; display:block; margin:0 auto; width:500px; height:auto;"></img>
+</div>
+
+
+<div class="home">
+  <header class="post-header">
+    <h1 class="post-title" style="font-size:24px">
+      <span>Yeongjae</span> <strong>Kim</strong>
+    </h1>
+  </header>
+  <article class="post-content" style="font-size:18px; font-family: Roboto">
+    Email: <strong>ss20727@cau.ac.kr </strong>
+  </article>
+  <br>
+  <article class="post-content" style="font-size:16px; font-family: Roboto">
+    I'm a prospective Ph.D. student seeking to enter graduate schools in mechanical engineering.
+    My research interest lies in designing robust control systems for robots.
+    Specifically, I'm interested in 1) modeling strategies that make the nonlinear dynamics of robots easy to control, 
+    2) control methodologies that allow robots to execute various tasks, and 
+    3) the development of control systems that enable machines to operate robustly in various environments.
+    I conceive of a world where humans can collaborate with robots in hazardous environments, such as disaster zones, space exploration, and radioactive areas.
+    Consequently, I aim to reduce the risk of certain tasks and broaden the scope of human activity.
+  </article>
+</div>
+
+
+
+
+<!-- {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
   {% if posts_count > 0 %}
@@ -31,4 +61,4 @@ layout: default
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
   {% endif %}
-</div>
+</div> -->
