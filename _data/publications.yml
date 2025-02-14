@@ -1,0 +1,51 @@
+- year: 2024
+  papers:
+    - title: "Distributed Coordination  \\( \\mathcal{D} \\)-Stabilization in Cyclic Pursuit Formations of Dynamical Multi-Agent Systems."
+      authors: "Jun-Gyu Park, Yeongjae Kim, and Tae-Hyoung Kim"
+      conference: "Actuators"
+      date: "December 2024"
+      links:
+        doi: "https://doi.org/10.3390/act13120495"
+    - title: "Meta-heuristic optimization-based robust \\( H_{\\infty} \\) controller design for active suspension systems subject to actuator saturation"
+      authors: "Yeongjae Kim, Myoung-Woo Kim, Masaaki Kanno, and Tae-Hyoung Kim"
+      conference: "Alexandria Engineering Journal"
+      date: "October 2024"
+      links:
+        doi: "https://doi.org/10.1016/j.aej.2024.08.032"
+
+- year: 2023
+  papers:
+    - title: "Graphical and Analytical Approaches for Analyzing Collective Behavior of Dynamic Multi-Agent Systems Governed by Generalized Cyclic Pursuit Mechanism"
+      authors: "Taeheon Kwak, Yeongjae Kim, Yutaka Hori, and Tae-Hyoung Kim"
+      conference: "IEEE Access"
+      date: "vol. 11, 2023"
+      links:
+        doi: "https://doi.org/10.1109/ACCESS.2023.3339195"
+    - title: "Multi-Objective Finite-Frequency \\( H_{\\infty} \\) / \\( GH_{2} \\) Static Output-Feedback Control Synthesis for Full-Vehicle Active Suspension Systems: A Metaheuristic Optimization Approach"
+      authors: "Yeongjae Kim, Taeheon Kwak, Masaaki Kanno, and Tae-Hyoung Kim"
+      conference: "IEEE Access"
+      date: "vol. 11, 2023"
+      links:
+        doi: "https://doi.org/10.1109/ACCESS.2023.3266272"
+
+- year: 2022
+  papers:
+    - title: "Metaheuristic Identification for an Analytic Dynamic Model of a Delta Robot with Experimental Verification"
+      authors: "Tae-Hyong Kim, Yeongjae Kim, Taeheon Kwak, and Massaki Kanno"
+      conference: "Actuators"
+      date: "2022"
+      links:
+        doi: "https://doi.org/10.3390/act11120352"
+
+
+# - year: 2022
+#   papers:
+#   - title: "Metaheuristic Identification for an Analytic Dynamic Model of a Delta Robot with Experimental Verification"
+#     authors: "Tae-Hyong Kim, Yeongjae Kim, Taeheon Kwak, and Massaki Kanno"
+#     conference: "Journal/Conference Name"
+#     date: "January 2025"
+#     links:
+#       pdf: "#"
+#       doi: "https://www.mdpi.com/1976360"
+#       project: "#"
+

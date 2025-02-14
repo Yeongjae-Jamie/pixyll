@@ -1,0 +1,40 @@
+.publications {
+  font-family: 'Georgia', sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.publications h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.publications .year h2 {
+  margin-top: 30px;
+  color: #333;
+  font-size: 20px;
+}
+
+// title;author;journal
+.publications ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px
+}
+
+.publications ul li {
+  margin-bottom: 20px;
+}
+
+.publications ul li a {
+  color: #060606;
+  text-decoration: none;
+}
+
+// .publications ul li a:hover {
+//   text-decoration: underline;
+// }
+
+.publications ul li em {
+  color: #666;
+}

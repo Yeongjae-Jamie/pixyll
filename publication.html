@@ -1,0 +1,60 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+tags: publications
+hide_title: true
+---
+
+<div class="'post">
+  <header class="post-header">
+    <h1 class="cv-title" style="font-size:24px">
+      Publications
+    </h1>
+  </header>
+  <article class="post-content">
+    
+  </article>
+</div>
+
+<div class="publications">
+  {% for publication in site.data.publications %}
+    <div class="year">
+      <h2>{{ publication.year }}</h2>
+      <ul>
+        {% for paper in publication.papers %}
+          <li>
+            <!-- <strong><a href="{{ paper.links.pdf }}">{{ paper.title }}</a></strong><br> -->
+            <strong>{{ paper.title }}</strong><br>
+            <!-- <span>{{ paper.authors }}</span><br> -->
+            <span>
+              {% assign authors = paper.authors | split: ", " %}
+              {% for author in authors %}
+                {% if author == "Yeongjae Kim" %}
+                  <strong>{{ author }}</strong>{% if forloop.last == false %}, {% endif %}
+                {% else %}
+                  {{ author }}{% if forloop.last == false %}, {% endif %}
+                {% endif %}
+              {% endfor %}
+            </span>
+            <em>{{ paper.conference }}, {{ paper.date }}</em><br>
+            <div class="publication-links">
+              {% if paper.links.pdf %}
+                <a href="{{ paper.links.pdf }}" class="button yellow-button" target="_blank">PDF</a>
+              {% endif %}
+              {% if paper.links.doi %}
+                <a href="{{ paper.links.doi }}" class="button yellow-button" target="_blank">DOI</a>
+              {% endif %}
+              {% if paper.links.project %}
+                <a href="{{ paper.links.project }}" class="button yellow-button" target="_blank">Project Page</a>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/button.js' | relative_url }}"></script>
+
