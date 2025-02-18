@@ -25,7 +25,9 @@ hide_title: true
         {% for paper in publication.papers %}
           <li>
             <!-- <strong><a href="{{ paper.links.pdf }}">{{ paper.title }}</a></strong><br> -->
-            <strong>{{ paper.title }}</strong><br>
+            <strong>{{ paper.title }}</strong>
+            <em>{{ paper.conference }}, {{ paper.date }}</em>
+            <br>
             <!-- <span>{{ paper.authors }}</span><br> -->
             <span>
               {% assign authors = paper.authors | split: ", " %}
@@ -37,7 +39,7 @@ hide_title: true
                 {% endif %}
               {% endfor %}
             </span>
-            <em>{{ paper.conference }}, {{ paper.date }}</em><br>
+            <br>
             <div class="publication-links">
               {% if paper.links.pdf %}
                 <a href="{{ paper.links.pdf }}" class="button yellow-button" target="_blank">PDF</a>
